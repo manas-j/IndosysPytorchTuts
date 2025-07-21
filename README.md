@@ -3,7 +3,7 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/manas-j/IndosysPytorchTuts.git
-   cd pth-tutorial
+   cd IndosysPytorchTuts
    ```
 
 2. **Create a virtual environment:**
@@ -91,4 +91,4 @@ python hf_granite8_latency.py -c
     > show different type of gbs:
         > dynamic shapes, using guards to avoid recompilations (use hooks)
     > tlparsecd pt  
-    > mobilenet colab: https://colab.research.google.com/drive/1xmb4hXynYpvyk59chT8MsdaY3mqJHwvb?usp=sharing
+    > add mobilenet colab: https://colab.research.google.com/drive/1xmb4hXynYpvyk59chT8MsdaY3mqJHwvb?usp=sharing
