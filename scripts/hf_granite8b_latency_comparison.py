@@ -94,15 +94,15 @@ else:
         with torch.no_grad():
             if torch.cuda.is_available():
                 with torch.amp.autocast('cuda'):
-                    start_time = time.time()
-                    first_token_output = model.generate(
-                        **inputs,
-                        max_new_tokens=1,
-                        do_sample=True,
-                        temperature=0.7,
-                        pad_token_id=tokenizer.eos_token_id
-                    )
-                    end_time = time.time()
+                    # start_time = time.time()
+                    # first_token_output = model.generate(
+                    #     **inputs,
+                    #     max_new_tokens=1,
+                    #     do_sample=True,
+                    #     temperature=0.7,
+                    #     pad_token_id=tokenizer.eos_token_id
+                    # )
+                    # end_time = time.time()
                     first_token_latency = end_time - start_time
                     first_token_latencies.append(first_token_latency)                
                     start_time = time.time()
